@@ -160,11 +160,11 @@ s3=int(input("Mark3:"))
 s4=int(input("Mark4:"))
 s5=int(input("Mark5:"))
 avg=s1+s2+s3+s4+s5/5
-for i in avg():
-    if i>250:
-        print("Pass",i)
+for a in avg():
+    if a>500:
+        print("Pass",a)
     else:
-        print("Fail",i)
+        print("Fail",a)
 
 #Get units consumed and calculate the bill using a given per unit rate
 a=int(input("units consumed"))
@@ -175,7 +175,7 @@ print("Total electricity bill=",a*b)
 price=int(input("price"))
 quantity=int(input("quantity of the product"))
 print("Total Price:",quantity*price)
-print("Total Discount:",quantity*price/20*100)
+print("Total Discount:",quantity*price/15*100)
 
 #Get age and check eligibility
 age=int(input("Age"))
